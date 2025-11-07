@@ -29,6 +29,11 @@
       "id": 6,
       "name": "show/hide password",
       "href": "/beginner/password"
+    },
+    {
+      "id": 7,
+      "name": "multitab-form",
+      "href": "/beginner/multitab-form"
     }
   ],
   "intermediate": [

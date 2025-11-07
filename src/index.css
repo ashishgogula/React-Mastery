@@ -9,3 +9,26 @@
   --color-primary: blue;
   --color-secondary: #64748b;
 }
+
+.thin-scrollbar {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent; /* Firefox: no thumb or track color */
+}
+
+/* Chrome, Edge, Safari */
+.thin-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  background: transparent; /* removes track background */
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent; /* fully transparent thumb */
+  border-radius: 0;
+  border: none;
+}
+
+.thin-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* transparent track */
+  border: none;
+}
+

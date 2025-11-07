@@ -12,6 +12,7 @@ import ToDoList from './components/beginner/ToDoList.jsx';
 import ShoppingCart from './components/beginner/ShoppingCart.jsx';
 import UserProfileDemo from './components/beginner/UserProfileDemo.jsx';
 import Password from './components/beginner/Password.jsx';
+import MultiTabForm from './components/beginner/MultiTabForm.jsx';
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: 'beginner/password',
         element: <Password />,
+      },
+      {
+        path: 'beginner/multitab-form',
+        element: <MultiTabForm />,
       },
     ],
   },

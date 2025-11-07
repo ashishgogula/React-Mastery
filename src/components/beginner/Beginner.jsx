@@ -24,7 +24,7 @@ const Beginner = () => {
                 </div>
 
                 <div className="w-full max-w-md bg-slate-200 dark:bg-slate-800 rounded-2xl shadow-lg overflow-hidden">
-                    <ul className="divide-y divide-slate-300 dark:divide-slate-700 max-h-96 overflow-y-auto scrollbar-thin scrollbar-thumb-yellow-400 scrollbar-track-transparent p-4">
+<ul className="max-h-96 overflow-y-auto p-4 thin-scrollbar divide-y divide-slate-300 dark:divide-slate-700">
                         {challenges?.beginner.map((challenge) => (
                             <li key={challenge.id}>
                                 <button
