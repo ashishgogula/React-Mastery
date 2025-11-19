@@ -39,8 +39,18 @@
   "intermediate": [
     {
       "id": 1,
-      "name": "dark-mode",
-      "href": "/intermediate/dark-mode"
+      "name": "StarRating",
+      "href": "/intermediate/star-rating"
+    },
+    {
+      "id": 2,
+      "name": "ProductRating",
+      "href": "/intermediate/product-rating"
+    },
+    {
+      "id": 3,
+      "name": "Autocomplete",
+      "href": "/intermediate/autocomplete"
     }
   ]
 }

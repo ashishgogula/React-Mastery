@@ -13,16 +13,21 @@ import ShoppingCart from './components/beginner/ShoppingCart.jsx';
 import UserProfileDemo from './components/beginner/UserProfileDemo.jsx';
 import Password from './components/beginner/Password.jsx';
 import MultiTabForm from './components/beginner/MultiTabForm.jsx';
+import Intermediate from './components/Intermediate/Intermediate.jsx';
+import DarkMode from './components/Intermediate/DarkMode.jsx';
+import StarRating from './components/Intermediate/StarRating.jsx';
+import ProductRating from './components/Intermediate/ProductRating.jsx';
+import Autocomplete from './components/Intermediate/Autocomplete.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement:<ErrorPage />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <Home />, // or whatever you want as landing
+        element: <Home />,
       },
       {
         path: 'home',
@@ -60,6 +65,27 @@ const router = createBrowserRouter([
         path: 'beginner/multitab-form',
         element: <MultiTabForm />,
       },
+      {
+        path: 'intermediate',
+        element: <Intermediate />,
+      },
+      {
+        path: 'intermediate/dark-mode',
+        element: <DarkMode />,
+      },
+      {
+        path: 'intermediate/star-rating',
+        element: <StarRating />,
+      },
+      {
+        path: 'intermediate/product-rating',
+        element: <ProductRating />,
+      },
+      {
+        path: 'intermediate/autocomplete',
+        element: <Autocomplete />,
+      },
+
     ],
   },
 ]);
